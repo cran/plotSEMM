@@ -1,17 +1,31 @@
 Package: plotSEMM
 Type: Package
 Title: Graphing nonlinear latent variable interactions in SEMM
-Version: 1.0
+Version: 2.0
 Date: 2008-03-11
-Author: Bethany E. Kok, Jolynn Pek, Sonya Sterba and Dan Bauer
-Maintainer: Bethany E. Kok <bethanyk@unc.edu>
+Authors@R: c(person("Bethany", "Kok", role = c('ctb')), person("Jolynn",
+    "Pek", role = c('ctb')), person("Sonya", "Sterba", role = c('ctb')),
+    person("Dan", "Bauer", role = c('ctb')), person("Phil", "Chalmers", email =
+    "rphilip.chalmers@gmail.com", role = c('cre', 'ctb')))
 Description: Contains functions plotSEMM_setup, plotSEMM_contour,
-        plotSEMM_probability and plotSEMM_legend, which generate the
-        diagnostic plots proposed by Bauer(2005) to investigate
-        nonlinear latent variable interactions in SEMM using LISREL
-        output.
+    and plotSEMM_probability, which generate the
+    diagnostic plots proposed by Bauer (2005) to investigate
+    nonlinear latent variable interactions in SEMM using LISREL
+    output.
+Depends: plyr, shiny
+Imports: MplusAutomation, Rcpp, plotrix
 License: GPL (>= 2)
-URL: http://www.r-project.org, http://www.bethanykok.com/plotSEMM.html
-Packaged: 2012-10-29 08:59:27 UTC; ripley
+LazyLoad: yes
+LazyData: yes
+LinkingTo: Rcpp
 Repository: CRAN
-Date/Publication: 2012-10-29 08:59:27
+URL: https://github.com/philchalmers/plotSEMM
+Packaged: 2014-07-06 14:00:39 UTC; phil
+Author: Bethany Kok [ctb],
+  Jolynn Pek [ctb],
+  Sonya Sterba [ctb],
+  Dan Bauer [ctb],
+  Phil Chalmers [cre, ctb]
+Maintainer: Phil Chalmers <rphilip.chalmers@gmail.com>
+NeedsCompilation: yes
+Date/Publication: 2014-07-07 14:25:37
