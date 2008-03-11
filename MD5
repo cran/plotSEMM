@@ -1,0 +1,11 @@
+f9089d07cc8cc0e36d545a7c230dea55 *DESCRIPTION
+9fdfeb11f7ddba6f3aab9aaa6b1ac5dd *NAMESPACE
+5b4e40c7bb26d617b949e86573acca6b *R/plotSEMM_contour.R
+80d292621fb9debd0ba75f7a0b5c0b50 *R/plotSEMM_legend.R
+0797a4d6ada8b25392a94a2d4c76b451 *R/plotSEMM_probability.R
+77091b352ac1e88ed43317d3f2bbcfad *R/plotSEMM_setup.R
+b3e9c1ca603487d5efcd330b0a4e2c78 *man/plotSEMM-package.Rd
+538da622150cc6f100b84eb4bf4ad4c2 *man/plotSEMM_contour.Rd
+a903f983eb87c5b29fed77cc57338c54 *man/plotSEMM_legend.Rd
+9a7951be607af6dbdcba5904ec4df283 *man/plotSEMM_probability.Rd
+3b852b564c62b96b31072013d1d38d65 *man/plotSEMM_setup.Rd
