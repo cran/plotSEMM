@@ -16,6 +16,9 @@ plotSEMM_setup2 <- function(setup, alpha = .025, boot = NULL, boot.CE=FALSE, boo
     alphaarray <- pars$alphaarray; psiarray <- pars$psiarray; 
     gamma <- betavec <- pars$betavec; ci_v <- pars$ci_v
     means <- setup$means
+    
+    if(any(psiarray < 0))
+        stop('Negative variances supplied. Please fix.')
         
     sum_expi <- sum(exp(ci_v))
     pi_v <- exp(ci_v) / sum_expi
@@ -302,6 +305,6 @@ plotSEMM_setup2 <- function(setup, alpha = .025, boot = NULL, boot.CE=FALSE, boo
                                class_denEta2=I(pEta), bs_CIlo=LCLall_,
                                bs_CIhi=UCLall_, delta_CIlo=lo_, delta_CIhi=hi_, delta_CElo=slo_, 
                                delta_CEhi=shi_, x, alpha=alpha, setup2=TRUE,
-                               boot=boot.CE, bs_lo, bs_high)
+                               boot=boot.CE, bs_CElo=bs_lo, bs_CEhi=bs_high)
     SEMLIdatapks
 }
