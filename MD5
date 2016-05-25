@@ -1,5 +1,5 @@
-860b7dcfcdafda458c636b8bc5a0d641 *DESCRIPTION
-5435606dcc1171225639e26722978549 *NAMESPACE
+d4f6aef2cbee1887b0b3d3445ffbf664 *DESCRIPTION
+683a2d341fbc17cf5e9d19097f3ef74c *NAMESPACE
 d5a94a36177a32b686f86feae16283ce *R/plotSEMM-package.R
 c1e7311948a19a45395cb36bf976b75e *R/plotSEMM_GUI.R
 4545f11d534407aa31c5ca8fdb81f6a2 *R/plotSEMM_ci.R
@@ -47,9 +47,9 @@ b4932f8b568c04d95747a8d60295a204 *inst/examples/quad-ext/quad.out
 6803de7a94ff5bf89b5cb7e28bacf46f *inst/examples/quadratic/acov.dat
 0f98d1e48065851f0fde595c72865844 *inst/examples/quadratic/quad.out
 383f117b7bb86a158e87d7207f137375 *inst/examples/quadratic/result.dat
-97ae645c8ce41e14534bd9e5d4910bf5 *man/plotSEMM.Rd
-319159c1696be710506ff5dc9a693339 *man/plotSEMM_GUI.Rd
-9b77cc6743a9ce23177142f107eeaceb *man/plotSEMM_contour.Rd
-532d923e884faecb00770c700016140c *man/plotSEMM_probability.Rd
-b53abadf99f321f184dfd9897b481a99 *man/plotSEMM_setup.Rd
+27128dde5603088f5550aeee2bc50040 *man/plotSEMM.Rd
+64230e971f0606180f050082f3a5f8de *man/plotSEMM_GUI.Rd
+e301b9e025aa44dfdd71edd458119aae *man/plotSEMM_contour.Rd
+ed55c7e2c19e02dd745767a14369d77a *man/plotSEMM_probability.Rd
+7b21b90e0ff18ff557f0e24225237379 *man/plotSEMM_setup.Rd
 240dd9858f67e80bfd195229d2dea1f6 *src/linear.cpp
